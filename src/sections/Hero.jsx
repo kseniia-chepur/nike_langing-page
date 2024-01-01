@@ -8,8 +8,8 @@ import { statistics, shoes } from "../constants";
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
   return (
-    <section id="hero" className="w-full flex flex-col xl:flex-row gap-10 justify-center min-h-screen
-    max-container/">
+    <section id="hero" 
+    className="w-full flex flex-col xl:flex-row gap-10 justify-center min-h-screen max-container/">
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
@@ -62,6 +62,6 @@ const Hero = () => {
       </div>
     </section>
   )
-}
+};
 
 export default Hero;

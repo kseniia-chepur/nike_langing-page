@@ -17,8 +17,7 @@ const Nav = () => {
           <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
             {navLinks.map(link => (
               <li key={link.label}>
-                <a 
-                  href={link.href}
+                <a href={link.href}
                   className="font-montserrat leading-normal text-lg text-slate-gray"
                 >
                   {link.label}
@@ -32,6 +31,6 @@ const Nav = () => {
       </nav>
     </header>
   )
-}
+};
 
 export default Nav;

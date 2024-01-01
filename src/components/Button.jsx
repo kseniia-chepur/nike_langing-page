@@ -11,6 +11,6 @@ const Button = ({ label, iconURL }) => {
       />
     </button>
   )
-}
+};
 
 export default Button;
