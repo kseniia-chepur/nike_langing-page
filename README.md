@@ -1,1 +1,1 @@
-###Nike landing page with Tailwind
+### Nike landing page with Tailwind CSS
